@@ -20,6 +20,8 @@ public class hitungGaji_71200543_A {
                     System.out.println("Potongan: " + Potongan);
                     System.out.println("Total: Rp." + total);
                     System.out.println("-------------------------------");
-    }
+                } else {
+                    System.out.println("Invalid Input");
+                }
 
 }}}
