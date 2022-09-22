@@ -2,6 +2,7 @@ package com.ug4.soal1;
 
 public class Passenger {
     private String name;
+    private String email;
     private String destiny;
     private double balance;
 
@@ -19,7 +20,12 @@ public class Passenger {
         this.name = name;
     }
 
+    public String getEmail() {
+        return this.email;
+    }
+
     public void setEmail(String email) {
+        this.email = email;
     }
 
     public double getBalance() {
