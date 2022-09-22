@@ -7,7 +7,7 @@ public class Bus {
     private String name;
     private Driver driver;
     private int usedCapacity = 0;
-    private final ArrayList<Passenger> passengers = new ArrayList();
+    private final ArrayList<Passenger> passengers = new ArrayList<>();
     private double profit = 0.0;
     private final String[] route = new String[]{"Kampus UKDW", "Asrama Omah Babadan", "Asrama Teologi"};
 

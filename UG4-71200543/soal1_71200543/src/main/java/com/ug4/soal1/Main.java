@@ -61,7 +61,6 @@ public class Main {
         } else {
             topUpMenu(bus, passenger);
         }
-
         System.out.println("============================================\n\n\n");
     }
 
