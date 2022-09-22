@@ -93,6 +93,8 @@ public class Main {
                 if (route.equalsIgnoreCase(destiny)) {
                     bus.proceedOrder(destiny, passenger);
                     System.out.flush();
+                    break;
+
                 } else {
                     System.out.println("Maaf tujuan yang anda masukan tidak sesuai");
                     showDestination(bus, passenger);
