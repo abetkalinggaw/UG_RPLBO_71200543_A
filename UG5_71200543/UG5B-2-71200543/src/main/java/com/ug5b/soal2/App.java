@@ -8,6 +8,7 @@ public class App
         Buku bukuB = new Buku("Autumn in Paris","Ilana Tan",63200,7);
         Buku bukuC = new Buku("Critical Eleven","Ika Natassa",74400,2);
         System.out.println("========== Daftar Buku Gramedia ==========\n");
+        
         infoBuku(bukuA);
         infoBuku(bukuB);
         infoBuku(bukuC);
