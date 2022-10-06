@@ -7,14 +7,27 @@ public class Goods {
     private double price;
 
     public Goods(){
-
+        this.code="";
+        this.name="";
+        this.quantity=0;
+        this.price=0;
     }
 
-    public Goods(int code, String name){
-
+    public Goods(String code, String name){
+        this.code=code;
+        this.name=name;
+        this.quantity=0;
+        this.price=0;
     }
 
-    public Goods(int code, String name, int quantity, double price){
-
+    public Goods(String code, String name, int quantity, double price) {
+        this.code = code;
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
     }
+    public int getQuantity(){
+        return quantity;
+    }
+
 }
