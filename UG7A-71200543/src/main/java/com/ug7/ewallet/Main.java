@@ -41,7 +41,7 @@ public class Main {
         System.out.print("["+E_71190480.getUser().getNama()+"] - ");
         E_71190480.transfer(E_71200543, 2500);
 
-        System.out.println("\n========== TRANSER #3 ==========");
+        System.out.println("\n========== TRANSFER #3 ==========");
         System.out.print("["+E_71200543.getUser().getNama()+"] - ");
         E_71200543.transfer(E_71190480, 9500);
 
