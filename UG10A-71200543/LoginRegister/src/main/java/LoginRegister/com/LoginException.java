@@ -1,6 +1,6 @@
 package LoginRegister.com;
 
-public class LoginException {
+public class LoginException extends Throwable {
     private int errCode;
     private String errMessage;
 
@@ -8,12 +8,12 @@ public class LoginException {
         super();
         this.errCode = errCode;
         if (this.errCode==1){
-            errMessage="username tidak boleh kosong";
+            errMessage="Maaf, username tidak boleh kosong!";
         }else if(this.errCode==2){
-            errMessage="password tidak boleh kosong";
+            errMessage="Maaf, password tidak boleh kosong!";
         }
         else if(this.errCode==3){
-            errMessage="username atau password salah!";
+            errMessage="Maaf, username atau password anda salah!";
         }
     }
 
@@ -24,6 +24,4 @@ public class LoginException {
     public int getErrCode() {
         return errCode;
     }
-}
-
 }

@@ -8,9 +8,9 @@ public class EmailException extends Exception{
         super();
         this.errCode = errCode;
         if (this.errCode==1){
-            errMessage="email tidak boleh kosong";
+            errMessage="Maaf, email tidak boleh kosong!!";
         }else if(this.errCode==2){
-            errMessage="format email salah";
+            errMessage="Maaf, email yang anda masukkan tidak valid";
         }
     }
 
